@@ -1,0 +1,72 @@
+/*
+Esta stylesheet sobrepõe-se ao bootstrap da framework para personalizar o UI
+*/
+/* 
+    Created on : 5/jul/2017, 11:51:46
+    Author     : André Costa
+*/
+
+/*background da aplicação*/
+body{
+    background-image: url('../..//web/imagens/eeumBackgroundv2.png');
+}
+
+.navbar-1{
+    background: #f2f2f2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#f9f9f9 80%, transparent); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#f9f9f9 80%, transparent); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#f9f9f9 80%, transparent); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#f9f9f9 90%, #87132a, #c76c1b 2%, transparent); /* Standard syntax */
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    border-radius: 1px;
+    height: 95px;
+    border: 0px solid #000;
+}
+
+/*define o tamanho do logotipo presente na navbar*/
+.main-logo{
+    height: 60px;
+}
+
+/*define o tipo de lettering da navbar*/
+.navbar-content{
+    /*font-family: "Open Sans Light", sans-serif;*/
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    height: 95px;
+}
+
+.navbar-content > ul{
+    height: 95px;
+}
+
+.navbar-content > li > a{
+    color: #000;
+    height: 95px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar-content > li > a:hover,
+.navbar-content > li > a:focus,
+.navbar-content > .active > a{
+    color: #c76c1b;
+    background-color: transparent;
+}
+
+.body-content{
+}
+
+.footer-content{
+    height: 50px;
+}
+
+.footer-content > div > p{
+   font-size: 10px;
+}
+
+.wrap-custom{
+    margin-bottom: -50px;
+    padding-top: 50px;
+}
